@@ -1,9 +1,9 @@
-import { createWeb3Modal, defaultConfig, useWeb3ModalEvents } from 'web3modal-web3js/react';
+import { createWeb3Modal, defaultConfig } from 'web3modal-web3js/react';
 import Web3 from 'web3';
 import checkBalance from './checkBalance'
 import abi from './data/abi.json'
 import { chains, config } from './data/walletConnect.json'
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './App.css'
 
 const projectId = import.meta.env.VITE_REACT_APP_PROJECT_ID
